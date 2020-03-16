@@ -5,20 +5,20 @@ const BottomRow = () => {
   return (
     <div className="bottomRow">
       <div className="down">
-        <h3 className="down__title">Down</h3>
+        <h3 className="down__title">RMA Fouls</h3>
         <div className="down__value">3</div>
       </div>
       <div className="toGo">
-        <h3 className="toGo__title">To Go</h3>
-        <div className="toGo__value">7</div>
+        <h3 className="toGo__title">BAR Fouls</h3>
+        <div className="toGo__value">4</div>
       </div>
       <div className="ballOn">
-        <h3 className="ballOn__title">Ball on</h3>
-        <div className="ballOn__value">21</div>
+        <h3 className="ballOn__title">Extra Time</h3>
+        <div className="ballOn__value">+5</div>
       </div>
       <div className="quarter">
-        <h3 className="quarter__title">Quarter</h3>
-        <div className="quarter__value">4</div>
+        <h3 className="quarter__title">Half-Time</h3>
+        <div className="quarter__value">2nd</div>
       </div>
     </div>
   );
